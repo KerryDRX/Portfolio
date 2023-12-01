@@ -1,0 +1,139 @@
+2023-07-11 10:07:44,893 [train.py] => ====================================================================================================
+DATALOADER:
+  BATCH_SIZE_EVAL: 8
+  BATCH_SIZE_TRAIN: 16
+  NUM_WORKERS: 8
+  PIN_MEMORY: True
+DATASET:
+  IMAGE_SIZE: 128
+  RESAMPLE: 2
+  TRAIN_VAL_TEST_RATIO: [0.7, 0.1, 0.2]
+DEVICE: cuda:0
+PATHS:
+  DATA_DIR: C:/Users/kerry/OneDrive/Desktop/Projects/Datasets/MALPEM
+  OUTPUT_DIR: C:/Users/kerry/OneDrive/Desktop/Projects/Code/Shape/results
+SEED:
+  DATA: 0
+TRAINER:
+  EVAL_INTERVAL: 5
+  LR: 0.001
+  MAX_EPOCHS: 200
+====================================================================================================
+2023-07-11 10:07:44,940 [data.py] => Train/Validation/Test: 763/109/218
+2023-07-11 10:10:53,205 [train.py] => Epoch 1/200 train_loss=0.998 train_DSC=0.002
+2023-07-11 10:13:57,504 [train.py] => Epoch 2/200 train_loss=0.992 train_DSC=0.010
+2023-07-11 10:17:05,025 [train.py] => Epoch 3/200 train_loss=0.549 train_DSC=0.450
+2023-07-11 10:20:12,951 [train.py] => Epoch 4/200 train_loss=0.317 train_DSC=0.649
+2023-07-11 10:23:22,922 [train.py] => Epoch 5/200 train_loss=0.238 train_DSC=0.724
+2023-07-11 10:24:17,787 [train.py] => Epoch 5/200 val_loss=0.233 val_DSC=0.730
+2023-07-11 10:24:18,204 [train.py] => Best model saved.
+2023-07-11 10:27:21,819 [train.py] => Epoch 6/200 train_loss=0.204 train_DSC=0.760
+2023-07-11 10:30:26,679 [train.py] => Epoch 7/200 train_loss=0.179 train_DSC=0.787
+2023-07-11 10:33:32,953 [train.py] => Epoch 8/200 train_loss=0.162 train_DSC=0.806
+2023-07-11 10:36:41,850 [train.py] => Epoch 9/200 train_loss=0.148 train_DSC=0.823
+2023-07-11 10:39:49,278 [train.py] => Epoch 10/200 train_loss=0.138 train_DSC=0.833
+2023-07-11 10:40:44,455 [train.py] => Epoch 10/200 val_loss=0.177 val_DSC=0.791
+2023-07-11 10:40:44,898 [train.py] => Best model saved.
+2023-07-11 10:43:50,591 [train.py] => Epoch 11/200 train_loss=0.128 train_DSC=0.845
+2023-07-11 10:46:58,505 [train.py] => Epoch 12/200 train_loss=0.122 train_DSC=0.852
+2023-07-11 10:50:04,577 [train.py] => Epoch 13/200 train_loss=0.117 train_DSC=0.858
+2023-07-11 10:53:08,971 [train.py] => Epoch 14/200 train_loss=0.109 train_DSC=0.867
+2023-07-11 10:56:18,981 [train.py] => Epoch 15/200 train_loss=0.105 train_DSC=0.872
+2023-07-11 10:57:13,714 [train.py] => Epoch 15/200 val_loss=0.162 val_DSC=0.806
+2023-07-11 10:57:14,152 [train.py] => Best model saved.
+2023-07-11 11:00:19,808 [train.py] => Epoch 16/200 train_loss=0.100 train_DSC=0.877
+2023-07-11 11:03:27,217 [train.py] => Epoch 17/200 train_loss=0.094 train_DSC=0.885
+2023-07-11 11:06:33,469 [train.py] => Epoch 18/200 train_loss=0.088 train_DSC=0.892
+2023-07-11 11:09:39,219 [train.py] => Epoch 19/200 train_loss=0.084 train_DSC=0.898
+2023-07-11 11:12:46,289 [train.py] => Epoch 20/200 train_loss=0.077 train_DSC=0.906
+2023-07-11 11:13:41,913 [train.py] => Epoch 20/200 val_loss=0.155 val_DSC=0.816
+2023-07-11 11:13:42,346 [train.py] => Best model saved.
+2023-07-11 11:16:49,278 [train.py] => Epoch 21/200 train_loss=0.074 train_DSC=0.910
+2023-07-11 11:19:56,893 [train.py] => Epoch 22/200 train_loss=0.069 train_DSC=0.916
+2023-07-11 11:23:05,167 [train.py] => Epoch 23/200 train_loss=0.068 train_DSC=0.918
+2023-07-11 11:26:13,238 [train.py] => Epoch 24/200 train_loss=0.063 train_DSC=0.924
+2023-07-11 11:29:20,112 [train.py] => Epoch 25/200 train_loss=0.059 train_DSC=0.928
+2023-07-11 11:30:16,456 [train.py] => Epoch 25/200 val_loss=0.157 val_DSC=0.816
+2023-07-11 11:30:16,891 [train.py] => Best model saved.
+2023-07-11 11:33:27,820 [train.py] => Epoch 26/200 train_loss=0.059 train_DSC=0.928
+2023-07-11 11:36:40,457 [train.py] => Epoch 27/200 train_loss=0.057 train_DSC=0.931
+2023-07-11 11:39:51,398 [train.py] => Epoch 28/200 train_loss=0.052 train_DSC=0.938
+2023-07-11 11:43:00,833 [train.py] => Epoch 29/200 train_loss=0.048 train_DSC=0.942
+2023-07-11 11:46:10,738 [train.py] => Epoch 30/200 train_loss=0.046 train_DSC=0.944
+2023-07-11 11:47:06,291 [train.py] => Epoch 30/200 val_loss=0.161 val_DSC=0.815
+2023-07-11 11:50:12,918 [train.py] => Epoch 31/200 train_loss=0.045 train_DSC=0.946
+2023-07-11 11:53:22,645 [train.py] => Epoch 32/200 train_loss=0.043 train_DSC=0.948
+2023-07-11 11:56:30,561 [train.py] => Epoch 33/200 train_loss=0.042 train_DSC=0.950
+2023-07-11 11:59:36,118 [train.py] => Epoch 34/200 train_loss=0.040 train_DSC=0.952
+2023-07-11 12:02:43,727 [train.py] => Epoch 35/200 train_loss=0.036 train_DSC=0.957
+2023-07-11 12:03:40,264 [train.py] => Epoch 35/200 val_loss=0.162 val_DSC=0.815
+2023-07-11 12:06:51,038 [train.py] => Epoch 36/200 train_loss=0.035 train_DSC=0.959
+2023-07-11 12:10:14,981 [train.py] => Epoch 37/200 train_loss=0.035 train_DSC=0.958
+2023-07-11 12:13:25,584 [train.py] => Epoch 38/200 train_loss=0.032 train_DSC=0.962
+2023-07-11 12:16:41,818 [train.py] => Epoch 39/200 train_loss=0.030 train_DSC=0.965
+2023-07-11 12:19:55,338 [train.py] => Epoch 40/200 train_loss=0.030 train_DSC=0.965
+2023-07-11 12:20:53,652 [train.py] => Epoch 40/200 val_loss=0.164 val_DSC=0.814
+2023-07-11 12:24:05,984 [train.py] => Epoch 41/200 train_loss=0.028 train_DSC=0.968
+2023-07-11 12:27:27,137 [train.py] => Epoch 42/200 train_loss=0.028 train_DSC=0.968
+2023-07-11 12:31:09,281 [train.py] => Epoch 43/200 train_loss=0.027 train_DSC=0.969
+2023-07-11 12:34:53,733 [train.py] => Epoch 44/200 train_loss=0.028 train_DSC=0.967
+2023-07-11 12:38:26,229 [train.py] => Epoch 45/200 train_loss=0.027 train_DSC=0.969
+2023-07-11 12:39:26,842 [train.py] => Epoch 45/200 val_loss=0.171 val_DSC=0.809
+2023-07-11 12:42:58,839 [train.py] => Epoch 46/200 train_loss=0.027 train_DSC=0.969
+2023-07-11 12:46:28,501 [train.py] => Epoch 47/200 train_loss=0.024 train_DSC=0.972
+2023-07-11 12:49:50,213 [train.py] => Epoch 48/200 train_loss=0.024 train_DSC=0.972
+2023-07-11 12:53:00,702 [train.py] => Epoch 49/200 train_loss=0.024 train_DSC=0.973
+2023-07-11 12:56:09,254 [train.py] => Epoch 50/200 train_loss=0.023 train_DSC=0.973
+2023-07-11 12:57:05,551 [train.py] => Epoch 50/200 val_loss=0.171 val_DSC=0.811
+2023-07-11 13:00:10,214 [train.py] => Epoch 51/200 train_loss=0.023 train_DSC=0.973
+2023-07-11 13:03:18,336 [train.py] => Epoch 52/200 train_loss=0.021 train_DSC=0.976
+2023-07-11 13:06:25,369 [train.py] => Epoch 53/200 train_loss=0.019 train_DSC=0.979
+2023-07-11 13:09:27,642 [train.py] => Epoch 54/200 train_loss=0.019 train_DSC=0.979
+2023-07-11 13:12:32,214 [train.py] => Epoch 55/200 train_loss=0.017 train_DSC=0.981
+2023-07-11 13:13:27,167 [train.py] => Epoch 55/200 val_loss=0.166 val_DSC=0.817
+2023-07-11 13:13:27,590 [train.py] => Best model saved.
+2023-07-11 13:16:31,397 [train.py] => Epoch 56/200 train_loss=0.016 train_DSC=0.982
+2023-07-11 13:19:36,410 [train.py] => Epoch 57/200 train_loss=0.016 train_DSC=0.982
+2023-07-11 13:22:40,644 [train.py] => Epoch 58/200 train_loss=0.017 train_DSC=0.980
+2023-07-11 13:25:44,741 [train.py] => Epoch 59/200 train_loss=0.018 train_DSC=0.980
+2023-07-11 13:28:50,279 [train.py] => Epoch 60/200 train_loss=0.016 train_DSC=0.982
+2023-07-11 13:29:43,973 [train.py] => Epoch 60/200 val_loss=0.173 val_DSC=0.810
+2023-07-11 13:32:47,444 [train.py] => Epoch 61/200 train_loss=0.016 train_DSC=0.983
+2023-07-11 13:35:50,640 [train.py] => Epoch 62/200 train_loss=0.016 train_DSC=0.982
+2023-07-11 13:38:55,088 [train.py] => Epoch 63/200 train_loss=0.017 train_DSC=0.980
+2023-07-11 13:42:00,719 [train.py] => Epoch 64/200 train_loss=0.018 train_DSC=0.980
+2023-07-11 13:45:03,772 [train.py] => Epoch 65/200 train_loss=0.019 train_DSC=0.979
+2023-07-11 13:45:57,823 [train.py] => Epoch 65/200 val_loss=0.176 val_DSC=0.807
+2023-07-11 13:49:01,113 [train.py] => Epoch 66/200 train_loss=0.020 train_DSC=0.977
+2023-07-11 13:52:03,815 [train.py] => Epoch 67/200 train_loss=0.019 train_DSC=0.978
+2023-07-11 13:55:14,813 [train.py] => Epoch 68/200 train_loss=0.017 train_DSC=0.981
+2023-07-11 13:58:17,620 [train.py] => Epoch 69/200 train_loss=0.017 train_DSC=0.981
+2023-07-11 14:01:22,802 [train.py] => Epoch 70/200 train_loss=0.016 train_DSC=0.982
+2023-07-11 14:02:16,190 [train.py] => Epoch 70/200 val_loss=0.174 val_DSC=0.809
+2023-07-11 14:05:17,558 [train.py] => Epoch 71/200 train_loss=0.015 train_DSC=0.984
+2023-07-11 14:08:19,380 [train.py] => Epoch 72/200 train_loss=0.013 train_DSC=0.986
+2023-07-11 14:11:20,282 [train.py] => Epoch 73/200 train_loss=0.013 train_DSC=0.986
+2023-07-11 14:14:24,109 [train.py] => Epoch 74/200 train_loss=0.012 train_DSC=0.988
+2023-07-11 14:17:27,859 [train.py] => Epoch 75/200 train_loss=0.011 train_DSC=0.989
+2023-07-11 14:18:20,710 [train.py] => Epoch 75/200 val_loss=0.171 val_DSC=0.814
+2023-07-11 14:21:22,542 [train.py] => Epoch 76/200 train_loss=0.010 train_DSC=0.989
+2023-07-11 14:24:24,764 [train.py] => Epoch 77/200 train_loss=0.010 train_DSC=0.990
+2023-07-11 14:27:29,461 [train.py] => Epoch 78/200 train_loss=0.010 train_DSC=0.990
+2023-07-11 14:30:32,577 [train.py] => Epoch 79/200 train_loss=0.010 train_DSC=0.990
+2023-07-11 14:33:37,864 [train.py] => Epoch 80/200 train_loss=0.010 train_DSC=0.990
+2023-07-11 14:34:32,085 [train.py] => Epoch 80/200 val_loss=0.172 val_DSC=0.815
+2023-07-11 14:37:33,397 [train.py] => Epoch 81/200 train_loss=0.010 train_DSC=0.990
+2023-07-11 14:40:36,110 [train.py] => Epoch 82/200 train_loss=0.010 train_DSC=0.990
+2023-07-11 14:43:39,429 [train.py] => Epoch 83/200 train_loss=0.011 train_DSC=0.988
+2023-07-11 14:46:42,900 [train.py] => Epoch 84/200 train_loss=0.011 train_DSC=0.988
+2023-07-11 14:49:47,132 [train.py] => Epoch 85/200 train_loss=0.014 train_DSC=0.985
+2023-07-11 14:50:40,621 [train.py] => Epoch 85/200 val_loss=0.186 val_DSC=0.798
+2023-07-11 14:53:43,809 [train.py] => Epoch 86/200 train_loss=0.018 train_DSC=0.979
+2023-07-11 14:56:49,468 [train.py] => Epoch 87/200 train_loss=0.024 train_DSC=0.972
+2023-07-11 14:59:54,648 [train.py] => Epoch 88/200 train_loss=0.028 train_DSC=0.966
+2023-07-11 15:02:58,264 [train.py] => Epoch 89/200 train_loss=0.026 train_DSC=0.969
+2023-07-11 15:06:03,243 [train.py] => Epoch 90/200 train_loss=0.020 train_DSC=0.977
+2023-07-11 15:06:56,877 [train.py] => Epoch 90/200 val_loss=0.177 val_DSC=0.805
+2023-07-11 15:10:00,525 [train.py] => Epoch 91/200 train_loss=0.015 train_DSC=0.983
+2023-07-11 15:13:05,433 [train.py] => Epoch 92/200 train_loss=0.012 train_DSC=0.987
+2023-07-11 15:16:09,729 [train.py] => Epoch 93/200 train_loss=0.011 train_DSC=0.989
