@@ -12,8 +12,9 @@ Links to my relevant academic products (paper, code, poster, slides, etc.) are p
 ### Evidential Uncertainty Quantification for Active Domain Adaptation
 [paper](https://arxiv.org/abs/2311.11367)
 | [code](https://github.com/KerryDRX/EvidentialADA)
-| [abstract](https://github.com/KerryDRX/EvidentialADA/blob/main/docs/abstract.pdf)
+| [slides](https://github.com/KerryDRX/EvidentialADA/blob/main/docs/slides.pdf)
 | [poster](https://github.com/KerryDRX/EvidentialADA/blob/main/docs/poster.pdf)
+| [abstract](https://github.com/KerryDRX/EvidentialADA/blob/main/docs/abstract.pdf)
 - An active domain adaptation framework based on evidential deep learning (EDL) implemented with
     - two sampling strategies: uncertainty sampling and certainty sampling
     - two uncertainty quantification methods: entropy-based and variance-based
